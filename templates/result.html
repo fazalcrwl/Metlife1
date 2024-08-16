@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification Result</title>
+</head>
+<body>
+    <h1>Closest Match</h1>
+    <p>Label: {{ label }}</p>
+    <img src="{{ url_for('send_image', filename=image_path) }}" alt="Closest Image">
+</body>
+</html>
